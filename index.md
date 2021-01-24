@@ -1,8 +1,8 @@
-function HelloMessage({ pudgy }) {
-  return <div>Can I get an OWA OWA ?{pudgy}</div>;
+function HelloMessage({ name }) {
+  return <div>Hello {name}</div>;
 }
 
 ReactDOM.render(
-  <HelloMessage pudgy="OWA OWA =)" />,
+  <HelloMessage name="Taylor" />,
   document.getElementById('container')
 );
